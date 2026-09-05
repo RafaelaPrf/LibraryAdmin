@@ -3,7 +3,7 @@ from typing import Any, Dict, Optional
 from urllib.parse import urljoin
 
 import requests
-from utils.settings import get_api_base_url
+from api.settings import get_api_base_url
 
 
 @dataclass

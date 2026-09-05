@@ -1,5 +1,5 @@
 import streamlit as st
-from agent_module import agent
+from agent.agent_module import agent
 
 st.title("🤖 Book Assistant")
 

@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.api_client import APIClient
+from api.api_client import APIClient
 import pandas as pd
 
 st.title("Book Details")

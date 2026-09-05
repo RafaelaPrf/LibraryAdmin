@@ -1,7 +1,7 @@
 import streamlit as st
 
-from utils.api_client import APIClient
-from utils.settings import get_api_base_url, set_api_base_url
+from api.api_client import APIClient
+from api.settings import get_api_base_url, set_api_base_url
 
 st.title("API Health")
 
